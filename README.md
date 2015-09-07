@@ -1,23 +1,29 @@
+README
+------
 
-# create user
+
+## create user
 
 username: l1spt
 FrstName: Lyndell
 lastName: 
 
- # addAPIkey
- # getAPIkey
+### addAPIkey
+### getAPIkey
 
-# addSSHkey
+## addSSHkey
 
-# Server
- # Order 
- # schedule cancelation
+## Server
 
- # backup
+### Order 
+### schedule cancelation
+
+### backup
 
 ```bash
 rsync -avvi /root /home /etc othersever:/backup/
 ```
 
- # upload/configure
+### upload/configure
+
+
