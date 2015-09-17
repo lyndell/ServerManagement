@@ -4,7 +4,8 @@
 #
 #
 # just compiling the client
-yum -y install git gcc-c++ autoconf openssl-devel automake libtool libcurl-devel
+# yum -y install git gcc-c++ autoconf openssl-devel automake libtool libcurl-devel
+yum -y install git libtool gcc-c++ libstdc++-static MySQL-python php-mysql php-gd php-cli openssl-devel mysql-devel mysql-server httpd php
 
 # Clone repo
 git clone https://github.com/BOINC/boinc boinc
@@ -15,6 +16,13 @@ cd boinc
 ./configure --disable-manager --enable-server
 make
 
+
+
+
+
+
+
+exit;
 useradd boinc
 
  /usr/sbin/usermod -G boinc -a username
@@ -47,5 +55,15 @@ git clean -f -d -x
     mysql-server
     httpd
     php
+
+# just compiling the client
+
+    gcc-c++
+    autoconf
+    openssl-devel
+    automake
+    libtool
+    libcurl-devel
+
 
 END
