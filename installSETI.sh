@@ -13,7 +13,7 @@ git clone https://github.com/BOINC/boinc boinc
 # Build
 cd boinc
 ./_autosetup
-./configure --disable-manager --enable-server
+./configure       # --disable-manager --enable-server
 make
 
 
