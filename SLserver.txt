@@ -1,0 +1,17 @@
+Generating public/private rsa key pair.
+Your identification has been saved in SLserver.key.
+Your public key has been saved in SLserver.key.pub.
+The key fingerprint is:
+50:fb:ce:5e:20:b4:6f:d3:51:24:ec:67:8b:f9:d6:40 SoftLayer migration
+The key's randomart image is:
++--[ RSA 4096]----+
+|        .  .. .  |
+|       . .  .o   |
+|      . o  .  .  |
+|       o o  ..E  |
+|        S o .* . |
+|         = oo.o  |
+|          * o. o |
+|         o o  o .|
+|          .  .   |
++-----------------+
